@@ -1,0 +1,213 @@
+/* All colors in project */
+:root {
+  --white-text: #ffffff;
+  --black-text: #212121;
+  --grey-text: #757575;
+  --grey-text-op60: rgba(255, 255, 255, 0.6);
+  --back-light-black: #2f303a;
+  --back-light-grey: #f5f4fa;
+  --back-blue: #2196f3;
+}
+
+/* Font-family in body index and portfolio */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header in index and portfolio */
+.logo-black {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--black-text);
+}
+
+.logo-blue {
+  color: var(--back-blue);
+}
+
+.link-black {
+  color: var(--black-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.current:visited {
+  color: var(--back-blue);
+}
+
+.link-grey {
+  color: var(--grey-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link-black:hover,
+.link-black:focus,
+.link-grey:hover,
+.link-grey:focus {
+  color: var(--back-blue);
+}
+
+/* .link-grey:hover,
+.link-grey:focus {
+  color: var(--back-blue);
+} */
+
+/* Hero */
+.hero {
+  background: var(--back-light-black);
+  color: var(--white-text);
+}
+
+.hero-title {
+  color: var(--white-text);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  background: var(--back-blue);
+  color: var(--white-text);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+/* Advantages */
+.advantages-title {
+  color: var(--black-text);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages-description {
+  color: var(--grey-text);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* About us and our team */
+.about-us-title,
+.our-team {
+  color: var(--black-text);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+/* .our-team {
+  color: var(--black-text);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+} */
+
+.team-members {
+  color: var(--black-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.team-members-position {
+  color: var(--grey-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.our-projects-filters {
+  background: var(--back-light-grey);
+  color: var(--black-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+/* Our projects from portfolio */
+.our-projects-filters:hover,
+.our-projects-filters:focus {
+  background: var(--back-blue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--white-text);
+}
+
+.our-projects-title {
+  color: var(--black-text);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.our-project {
+  color: var(--grey-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/* Footer in index and portfolio */
+.footer-background {
+  background: var(--back-light-black);
+}
+
+.logo-white {
+  font-family: 'Raleway', sans-serif;
+  color: var(--white-text);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.link-white {
+  color: var(--white-text);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.link-grey-footer {
+  color: var(--grey-text-op60);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.link-grey-footer:hover,
+.link-grey-footer:focus,
+.link-white:hover,
+.link-white:focus {
+  color: var(--back-blue);
+}
+
+/* .link-white:hover,
+.link-white:focus {
+  color: var(--back-blue);
+} */
