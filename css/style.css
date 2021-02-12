@@ -135,6 +135,7 @@ ul {
 .hero {
   background: var(--back-light-black);
   color: var(--white-text);
+
   text-align: center;
 }
 
@@ -145,6 +146,9 @@ ul {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  padding-top: 200px;
+  padding-bottom: 30px;
 }
 
 .hero-button {
@@ -154,9 +158,30 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+
+  width: 200px;
+  height: 50px;
+
+  margin-bottom: 200px;
 }
 
 /* Advantages */
+.advantages-section {
+  padding-bottom: 94px;
+}
+
+.advantages {
+  display: flex;
+}
+
+.advantages-list {
+  width: 270px;
+}
+
+.advantages .advantages-list + .advantages-list {
+  margin-left: 30px;
+}
+
 .advantages-title {
   color: var(--black-text);
   font-weight: 700;
@@ -164,6 +189,8 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  padding-bottom: 10px;
 }
 
 .advantages-description {
@@ -182,6 +209,9 @@ ul {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 /* .our-team {
@@ -192,12 +222,42 @@ ul {
   letter-spacing: 0.03em;
 } */
 
+/* About us */
+.about-us-list {
+  display: flex;
+  width: calc(100% / 3);
+  margin-bottom: 94px;
+}
+
+.about-us-list .about-us + .about-us {
+  padding-left: 30px;
+}
+
+/* Our team */
+.our-team-bgr {
+  background: var(--back-light-grey)
+}
+
+.our-team {
+  padding-top: 94px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+}
+
 .team-members {
   color: var(--black-text);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 .team-members-position {
@@ -206,8 +266,11 @@ ul {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+
+  text-align: center;
 }
 
+/* Our projects from portfolio */
 .our-projects-filters {
   background: var(--back-light-grey);
   color: var(--black-text);
@@ -217,7 +280,6 @@ ul {
   letter-spacing: 0.03em;
 }
 
-/* Our projects from portfolio */
 .our-projects-filters:hover,
 .our-projects-filters:focus {
   background: var(--back-blue);
@@ -247,6 +309,16 @@ ul {
 /* Footer in index and portfolio */
 .footer-background {
   background: var(--back-light-black);
+
+  display: flex;
+  height: 252px;
+  align-self: center;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.contacts-ftr {
+  justify-content: space-between;
 }
 
 .logo-white {
@@ -255,6 +327,9 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+
+  /* display: flex;
+  margin-bottom: 20px; */
 }
 
 .link-white {
@@ -263,6 +338,9 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+
+  /* display: flex;
+  margin-bottom: 9px; */
 }
 
 .link-grey-footer {
@@ -271,6 +349,9 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+
+  /* display: flex;
+  margin-bottom: 9px; */
 }
 
 .link-grey-footer:hover,
