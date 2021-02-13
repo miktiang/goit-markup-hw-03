@@ -9,12 +9,12 @@
   --back-blue: #2196f3;
 }
 
-/* Font-family in body index and portfolio */
+/* Font-family in body index.html and portfolio.html */
 body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Reset margin in elements */
+/* Reset margin in all elements in project*/
 h1,
 h2,
 h3,
@@ -29,31 +29,31 @@ button {
   padding: 0;
 }
 
-/* Change images to block-type */
+/* Change all images to block-type in project*/
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* Container */
+/* Container in index.html and portfolio.html*/
 .container {
   width: 1200px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
 
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
-/* Main link */
+/* Main link in index.html and portfolio.html*/
 .main-link {
   display: flex;
   align-items: center;
   height: 80px;
 }
 
-/* Site navigation */
+/* Site navigation in index.html and portfolio.html*/
 .site-nav {
   display: flex;
   margin-left: 93px;
@@ -76,13 +76,13 @@ img {
   margin-right: 50px;
 } */
 
-/* Main contacts */
+/* Main contacts in index.html and portfolio.html*/
 .main-contacts {
   margin-left: auto;
   align-items: center;
 }
 
-/* Contacts link */
+/* Contacts link in index.html and portfolio.html*/
 .contact-link {
   display: flex;
 }
@@ -96,7 +96,7 @@ img {
   margin-right: 50px;
 } */
 
-/* Header in index and portfolio */
+/* Header in index.html and portfolio.html */
 .logo-black {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -390,9 +390,6 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
-  /* display: flex;
-  margin-bottom: 20px; */
 }
 
 .footer-link {
@@ -410,9 +407,6 @@ img {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-
-  /* display: flex;
-  margin-bottom: 9px; */
 }
 
 .link-grey-footer {
@@ -421,9 +415,6 @@ img {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-
-  /* display: flex;
-  margin-bottom: 9px; */
 }
 
 .link-grey-footer:hover,
@@ -433,6 +424,7 @@ img {
   color: var(--back-blue);
 }
 
+/* Alternative */
 /* .link-white:hover,
 .link-white:focus {
   color: var(--back-blue);
