@@ -22,16 +22,25 @@ h4,
 h5,
 h6,
 p,
-ul {
+ul,
+button {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Container */
 .container {
   width: 1200px;
   padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
   outline: 1px solid red;
 }
 
@@ -135,8 +144,11 @@ ul {
 .hero {
   background: var(--back-light-black);
   color: var(--white-text);
+}
 
+.hero-container {
   text-align: center;
+  padding: 200px 0;
 }
 
 .hero-title {
@@ -147,7 +159,7 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  padding-top: 200px;
+  
   padding-bottom: 30px;
 }
 
@@ -162,12 +174,12 @@ ul {
   width: 200px;
   height: 50px;
 
-  margin-bottom: 200px;
+  
 }
 
 /* Advantages */
 .advantages-section {
-  padding-bottom: 94px;
+  padding: 94px 0;
 }
 
 .advantages {
@@ -225,7 +237,6 @@ ul {
 /* About us */
 .about-us-list {
   display: flex;
-  width: calc(100% / 3);
   margin-bottom: 94px;
 }
 
@@ -238,15 +249,21 @@ ul {
   background: var(--back-light-grey)
 }
 
-.our-team {
+.our-team-cont {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-list {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
+
+  /* padding-bottom: 94px; */
 }
+
+/* .our-team-mbr {
+  padding-bottom: 30px;
+} */
 
 .team-members {
   color: var(--black-text);
@@ -268,9 +285,31 @@ ul {
   letter-spacing: 0.03em;
 
   text-align: center;
+  padding-bottom: 30px;
 }
 
 /* Our projects from portfolio */
+.our-project-container {
+  margin: 94px auto;
+}
+
+.our-project-filter {
+  display: flex;
+}
+
+.our-project-list {
+  outline: 1px solid blue;
+  flex-basis: calc(100% / 3);
+}
+
+.our-project-filter .filter + .filter {
+  margin-left: 8px;
+}
+
+.our-project-list {
+  padding-top: 50px;
+}
+
 .our-projects-filters {
   background: var(--back-light-grey);
   color: var(--black-text);
@@ -312,13 +351,7 @@ ul {
 
   display: flex;
   height: 252px;
-  align-self: center;
-  justify-content: space-between;
   padding: 60px 0;
-}
-
-.contacts-ftr {
-  justify-content: space-between;
 }
 
 .logo-white {
@@ -330,6 +363,15 @@ ul {
 
   /* display: flex;
   margin-bottom: 20px; */
+}
+
+.footer-link {
+  margin-top: 20px;
+  
+}
+
+.addres .addres-link + .addres-link {
+  padding-top: 9px;
 }
 
 .link-white {
