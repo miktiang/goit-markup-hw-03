@@ -378,8 +378,7 @@ img {
 /* Footer in index.html and portfolio.html */
 .footer-background {
   background: var(--back-light-black);
-
-  display: flex;
+  
   height: 252px;
   padding: 60px 0;
 }
@@ -394,7 +393,6 @@ img {
 
 .footer-link {
   margin-top: 20px;
-  
 }
 
 .addres .addres-link + .addres-link {
