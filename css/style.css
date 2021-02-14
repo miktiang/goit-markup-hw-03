@@ -171,13 +171,9 @@ img {
   line-height: 1.87;
   letter-spacing: 0.06em;
 
-  width: 200px;
-  height: 50px;
-
   align-items: center;
   text-align: center;
-
-  /* padding: 10px 32px; */
+  padding: 10px 32px;
 }
 
 /* Advantages in index.html*/
@@ -227,7 +223,7 @@ img {
   letter-spacing: 0.03em;
 
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 /* .our-team {
@@ -244,8 +240,17 @@ img {
   margin-bottom: 94px;
 }
 
-.about-us-list .about-us + .about-us {
+/* .about-us-list .about-us + .about-us {
   padding-left: 30px;
+} */
+
+.about-us-list .about-us {
+  flex-basis: calc((100% - 60px) / 3);
+  margin-left: 30px;
+}
+
+.about-us:first-child {
+  margin-left: 0;
 }
 
 /* Our team in index.html*/
@@ -260,9 +265,15 @@ img {
 
 .team-list {
   display: flex;
-  justify-content: space-between;
+}
 
-  /* padding-bottom: 94px; */
+.team-list .our-team-mbr {
+  width: calc((100% - 90px) / 4);
+  margin-left: 30px;
+}
+
+.our-team-mbr:first-child {
+  margin-left: 0;
 }
 
 .our-team-mbr {
